@@ -2,6 +2,7 @@ import React, {useReducer, useState} from 'react';
 
 export default function CartForm() {
 
+    //first parameter is a callback function and the second parameter is the inital value
     const [check, toggle] = useReducer((check) => !check, false);
 
     const btnFunction = ()=> {
